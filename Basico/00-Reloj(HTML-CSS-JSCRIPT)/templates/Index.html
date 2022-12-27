@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo de nuestra web-->
+    <title>Reloj Digital de 12 horas -JS</title>
+    <!-- para comentar una linea de codigo : [CTRL] + K (Vscode queda a la espera). 
+        Después pulsa [CTRL] + C  y [CTRL] + U para descomentar -->
+     <!-- link:favicon sirve para Agregar un icono al navegador, 
+    tiene que tener la imagen en .ico para que la pueda detectar,
+     aveces si cambias la imagen del icono queda en cache la anterior y la actual no se actualiza
+    para solucionar tienes que esperar que se vacie el cache o borrarlo tu mismo-->
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon"> 
+    <!-- De esta forma se importa un archivo css esta es la mejor forma de hacerlo-->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <!-- Utilizaremos la class wrap para centrar el reloj horizontalmente -->
+    <div class="wrap">
+        <div class="widget">
+            <div class="fecha">
+                <p id="diaSemana" class="diaSemana"></p>
+                <p id="dia" class="dia"></p>
+                <p >de </p>
+                <p id="mes" class="mes"></p>
+                <p >del </p>
+                <p id="year" class="year"></p>
+
+            </div>
+            <div class="reloj">
+                <p id="horas" class="horas"></p>
+                <p >:</p>
+                <p id="minutos" class="minutos"></p>
+                <p >:</p>
+                <div class="caja-segundos">
+                    <p id="ampm" class="ampm"></p>
+                    <p id="segundos" class="segundos"></p>
+                </div>
+            </div>
+            <div class="developher">
+                <p > Desarrollado por: Carlos J castaño</p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/reloj.js"></script>
+</body>
+</html>

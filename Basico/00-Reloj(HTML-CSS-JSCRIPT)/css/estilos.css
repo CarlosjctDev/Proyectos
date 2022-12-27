@@ -1,0 +1,81 @@
+*{
+    /* Margen exteriores */
+    margin: 0px;    
+    /* Margen interno */
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background:url(../img/img.jpg) #000;
+    /* Para que la imagen se ajuste al ancho de la pantalla del usuario */
+    background-size: cover;
+    /* Color blanco del texto */
+    color: #fff;
+    /* Tamaño texto */
+    font-size: 16px;
+    /* No se repita la imagen */
+    background-repeat: no-repeat;
+    
+}
+
+.wrap {
+    width: 90%;
+    max-width: 1000px;
+    /* margin: auto; */
+}
+
+.widget {
+    /* Para que no abarque todo el ancho */
+    width: 40%;
+    /* Margen exteriores */
+    margin: 32px;
+}
+
+.widget p{
+    /* Se coloque uno al lado del otro */
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha {
+    font-family: Arial;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125rem;
+    background: rgba(0,0,0,.5);
+    padding: 20px;
+    width: 100% ;
+
+}
+
+.reloj {
+    font-family: Arial;
+    width: 100% ;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+    background: rgba(0,0,0,.5);
+    margin-bottom: 0.3125rem;
+    
+}
+
+.reloj .caja-segundos{
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.reloj .ampm {
+    font-size: 2rem;
+    display: block;
+}
+
+.developher {
+    font-family: Arial;
+    width: 100% ;
+    padding: 20px;
+    font-size: 1em;
+    text-align: center;
+    background: rgba(0,0,0,.5);
+   
+}
